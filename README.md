@@ -1,6 +1,9 @@
 
 # Centralized Log Management System
 
+<img width="1259" alt="elastic_stack_dashboard" src="https://github.com/george-mountain/Centralized-Log-Management/assets/19597087/7a2e9686-0b14-4867-bd4d-a67dbab4b289">
+
+
 This repository showcases how to centralize and manage logs from microservice applications using the Elastic Stack (Logstash, Elasticsearch, and Kibana) and Loguru for logging within a FastAPI app.
 
 ## Project Overview
@@ -86,7 +89,9 @@ Environment variables for credentials are stored in the `.env` file, ensuring th
 
 ### FastAPI App
 The FastAPI app will be available at `http://localhost:8000`.
+
 The fastapi endpoints are:
+
 http://localhost:8000/docs#/ --- This is the central application endpoint documentation
 
 http://localhost:8000/school-management/student/docs#/  --- This is the student app endpoints documentation
